@@ -16,7 +16,7 @@ import urllib2
 
 ZENOSS_INSTANCE = 'http://localhost:8080'
 ZENOSS_USERNAME = 'admin'
-ZENOSS_PASSWORD = 'n0t1ck3t'
+ZENOSS_PASSWORD = ''
 ENV='dev'
 PROJECT='tfound'
 
