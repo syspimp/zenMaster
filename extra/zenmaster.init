@@ -1,0 +1,56 @@
+#!/bin/sh
+#
+# zenmaster     This shell script takes care of starting and stopping
+#               the zenmaster
+#
+# chkconfig: - 85 15
+# description: zenmaster is a smartphone interface for zenoss
+# processname: zenmaster
+
+# Source function library
+. /etc/rc.d/init.d/functions
+
+source /etc/profile
+
+SERVICE_NAME="zenmaster"
+PID_FILE="/var/run/zenmaster.pid"
+ZENMASTER_HOME="/home/zenoss/zenMaster"
+
+case "$1" in
+  start)
+    # Start daemons.
+
+    echo -n $"Starting $SERVICE_NAME daemon: "
+    echo
+    python $ZENMASTER_HOME/webui/__init__.py >> /var/log/zenmaster.log 2>&1 &
+    sleep 1
+    ps ax|grep webui| grep -v "grep"|awk '{print $1}' > $PID_FILE
+    echo
+    ;;
+
+  stop)
+    # Stop daemons.
+    echo -n $"Shutting down $SERVICE_NAME: "
+    PID_NUM=`cat $PID_FILE`
+    echo $" killing pid $PID_NUM"   
+    if [ -f $PID_FILE ]; then
+        killproc -p $PID_FILE
+        # kill $PID_NUM
+        rm -f $PID_FILE
+    fi
+    ;;
+  status)
+    status -p $PID_FILE $SERVICE_NAME
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+
+  *)
+    echo $"Usage: $0 {start|stop|status|restart}"
+    exit 1
+esac
+
+exit 0
+

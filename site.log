@@ -1,0 +1,1795 @@
+[19/Nov/2011:23:24:48] ENGINE Listening for SIGHUP.
+[19/Nov/2011:23:24:49] ENGINE Listening for SIGTERM.
+[19/Nov/2011:23:24:49] ENGINE Listening for SIGUSR1.
+[19/Nov/2011:23:24:49] ENGINE Bus STARTING
+[19/Nov/2011:23:24:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/Nov/2011:23:24:49] ENGINE Serving on 0.0.0.0:8000
+[19/Nov/2011:23:24:49] ENGINE Bus STARTED
+[19/Nov/2011:23:27:48] ENGINE Caught signal SIGTERM.
+[19/Nov/2011:23:27:48] ENGINE Bus STOPPING
+[19/Nov/2011:23:27:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[19/Nov/2011:23:27:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/Nov/2011:23:27:48] ENGINE Bus STOPPED
+[19/Nov/2011:23:27:48] ENGINE Bus EXITING
+[19/Nov/2011:23:27:48] ENGINE Bus EXITED
+[19/Nov/2011:23:27:48] ENGINE Waiting for child threads to terminate...
+[19/Nov/2011:23:28:44] ENGINE Listening for SIGHUP.
+[19/Nov/2011:23:28:44] ENGINE Listening for SIGTERM.
+[19/Nov/2011:23:28:44] ENGINE Listening for SIGUSR1.
+[19/Nov/2011:23:28:44] ENGINE Bus STARTING
+[19/Nov/2011:23:28:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/Nov/2011:23:28:44] ENGINE Serving on 0.0.0.0:8000
+[19/Nov/2011:23:28:44] ENGINE Bus STARTED
+[19/Nov/2011:23:34:27] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webui/__init__.py", line 254, in groups
+    tmpl = loader.load(tpl)
+UnboundLocalError: local variable 'tpl' referenced before assignment
+
+[19/Nov/2011:23:38:44] ENGINE Caught signal SIGTERM.
+[19/Nov/2011:23:38:44] ENGINE Bus STOPPING
+[19/Nov/2011:23:38:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[19/Nov/2011:23:38:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/Nov/2011:23:38:44] ENGINE Bus STOPPED
+[19/Nov/2011:23:38:44] ENGINE Bus EXITING
+[19/Nov/2011:23:38:44] ENGINE Bus EXITED
+[19/Nov/2011:23:38:44] ENGINE Waiting for child threads to terminate...
+[19/Nov/2011:23:50:25] ENGINE Listening for SIGHUP.
+[19/Nov/2011:23:50:26] ENGINE Listening for SIGTERM.
+[19/Nov/2011:23:50:26] ENGINE Listening for SIGUSR1.
+[19/Nov/2011:23:50:26] ENGINE Bus STARTING
+[19/Nov/2011:23:50:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/Nov/2011:23:50:26] ENGINE Serving on 0.0.0.0:8000
+[19/Nov/2011:23:50:26] ENGINE Bus STARTED
+[19/Nov/2011:23:59:59] ENGINE Caught signal SIGTERM.
+[19/Nov/2011:23:59:59] ENGINE Bus STOPPING
+[19/Nov/2011:23:59:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[19/Nov/2011:23:59:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/Nov/2011:23:59:59] ENGINE Bus STOPPED
+[19/Nov/2011:23:59:59] ENGINE Bus EXITING
+[19/Nov/2011:23:59:59] ENGINE Bus EXITED
+[19/Nov/2011:23:59:59] ENGINE Waiting for child threads to terminate...
+[20/Nov/2011:00:19:55] ENGINE Listening for SIGHUP.
+[20/Nov/2011:00:19:55] ENGINE Listening for SIGTERM.
+[20/Nov/2011:00:19:55] ENGINE Listening for SIGUSR1.
+[20/Nov/2011:00:19:55] ENGINE Bus STARTING
+[20/Nov/2011:00:19:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[20/Nov/2011:00:19:55] ENGINE Serving on 0.0.0.0:8000
+[20/Nov/2011:00:19:55] ENGINE Bus STARTED
+[20/Nov/2011:00:26:28]  Traceback (most recent call last):
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpwsgi.py", line 156, in trap
+    return func(*args, **kwargs)
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpwsgi.py", line 89, in __call__
+    return self.nextapp(environ, start_response)
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpwsgi.py", line 311, in tail
+    return self.response_class(environ, start_response, self.cpapp)
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpwsgi.py", line 203, in __init__
+    self.run()
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cpwsgi.py", line 251, in run
+    request.run(meth, path, qs, rproto, headers, rfile)
+  File "/opt/zenoss/python/lib/python2.6/site-packages/CherryPy-3.2.0rc1-py2.6.egg/cherrypy/_cprequest.py", line 607, in run
+    raise cherrypy.TimeoutError()
+TimeoutError
+
+[17/Nov/2012:11:27:38] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:27:38] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:27:38] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:27:38] ENGINE Bus STARTING
+[17/Nov/2012:11:27:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:27:38] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:27:38] ENGINE Bus STARTED
+[17/Nov/2012:11:28:05] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:28:15] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webui/__init__.py", line 233, in groups
+    d[i] = self.dev.getDevice(val)
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:28:18] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webui/__init__.py", line 109, in aws
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 60, in listEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:28:27] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webui/__init__.py", line 233, in groups
+    d[i] = self.dev.getDevice(val)
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:28:35] ENGINE Keyboard Interrupt: shutting down bus
+[17/Nov/2012:11:28:35] ENGINE Bus STOPPING
+[17/Nov/2012:11:28:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:11:28:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:11:28:37] ENGINE Bus STOPPED
+[17/Nov/2012:11:28:37] ENGINE Bus EXITING
+[17/Nov/2012:11:28:37] ENGINE Bus EXITED
+[17/Nov/2012:11:28:37] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:11:29:09] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:29:09] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:29:09] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:29:09] ENGINE Bus STARTING
+[17/Nov/2012:11:29:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:29:09] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:29:09] ENGINE Bus STARTED
+[17/Nov/2012:11:29:20] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:29:27] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 60, in listEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:33:16] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:35:08] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:35:29] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:36:28] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:37:25] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:11:37:25] ENGINE Bus STOPPING
+[17/Nov/2012:11:37:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:11:37:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:11:37:25] ENGINE Bus STOPPED
+[17/Nov/2012:11:37:25] ENGINE Bus EXITING
+[17/Nov/2012:11:37:25] ENGINE Bus EXITED
+[17/Nov/2012:11:37:25] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:11:37:38] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:37:38] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:37:38] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:37:38] ENGINE Bus STARTING
+[17/Nov/2012:11:37:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:37:38] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:37:38] ENGINE Bus STARTED
+[17/Nov/2012:11:37:46] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 210, in devices
+    print "Looping thru, seeting list to give to template, val %s, dev %s" % (val,self.dev.getDevice(z[val]))
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 38, in getDeviceEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:11:38:46] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:11:38:46] ENGINE Bus STOPPING
+[17/Nov/2012:11:38:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:11:38:46] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:11:38:46] ENGINE Bus STOPPED
+[17/Nov/2012:11:38:46] ENGINE Bus EXITING
+[17/Nov/2012:11:38:46] ENGINE Bus EXITED
+[17/Nov/2012:11:38:46] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:11:38:55] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:38:55] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:38:55] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:38:55] ENGINE Bus STARTING
+[17/Nov/2012:11:38:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:38:55] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:38:55] ENGINE Bus STARTED
+[17/Nov/2012:11:39:18] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 545, in _flatten
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/directives.py", line 359, in __call__
+    iterable = _eval_expr(self.expr, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 71, in <Expression u"iter(device['events'])">
+    <li py:for="key in device['events']">
+TypeError: 'NoneType' object is not iterable
+
+[17/Nov/2012:11:40:06] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:11:40:06] ENGINE Bus STOPPING
+[17/Nov/2012:11:40:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:11:40:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:11:40:06] ENGINE Bus STOPPED
+[17/Nov/2012:11:40:06] ENGINE Bus EXITING
+[17/Nov/2012:11:40:06] ENGINE Bus EXITED
+[17/Nov/2012:11:40:06] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:11:40:17] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:40:17] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:40:17] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:40:17] ENGINE Bus STARTING
+[17/Nov/2012:11:40:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:40:17] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:40:17] ENGINE Bus STARTED
+[17/Nov/2012:11:44:20] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:11:44:20] ENGINE Bus STOPPING
+[17/Nov/2012:11:44:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:11:44:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:11:44:20] ENGINE Bus STOPPED
+[17/Nov/2012:11:44:20] ENGINE Bus EXITING
+[17/Nov/2012:11:44:20] ENGINE Bus EXITED
+[17/Nov/2012:11:44:20] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:11:45:06] ENGINE Listening for SIGHUP.
+[17/Nov/2012:11:45:06] ENGINE Listening for SIGTERM.
+[17/Nov/2012:11:45:06] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:11:45:06] ENGINE Bus STARTING
+[17/Nov/2012:11:45:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:11:45:06] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:11:45:06] ENGINE Bus STARTED
+[17/Nov/2012:11:45:47] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 60, in listEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:12:01:44] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:01:44] ENGINE Bus STOPPING
+[17/Nov/2012:12:01:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:01:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:01:44] ENGINE Bus STOPPED
+[17/Nov/2012:12:01:44] ENGINE Bus EXITING
+[17/Nov/2012:12:01:44] ENGINE Bus EXITED
+[17/Nov/2012:12:01:44] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:01:53] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:01:53] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:01:53] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:01:53] ENGINE Bus STARTING
+[17/Nov/2012:12:01:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:01:53] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:01:53] ENGINE Bus STARTED
+[17/Nov/2012:12:02:44] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:03:49] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:03:49] ENGINE Bus STOPPING
+[17/Nov/2012:12:03:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:03:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:03:49] ENGINE Bus STOPPED
+[17/Nov/2012:12:03:49] ENGINE Bus EXITING
+[17/Nov/2012:12:03:49] ENGINE Bus EXITED
+[17/Nov/2012:12:03:49] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:04:01] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:04:01] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:04:01] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:04:01] ENGINE Bus STARTING
+[17/Nov/2012:12:04:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:04:01] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:04:01] ENGINE Bus STARTED
+[17/Nov/2012:12:04:07] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:04:30] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:04:50] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:09:16] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:09:16] ENGINE Bus STOPPING
+[17/Nov/2012:12:09:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:09:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:09:16] ENGINE Bus STOPPED
+[17/Nov/2012:12:09:16] ENGINE Bus EXITING
+[17/Nov/2012:12:09:16] ENGINE Bus EXITED
+[17/Nov/2012:12:09:16] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:09:25] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:09:25] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:09:25] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:09:25] ENGINE Bus STARTING
+[17/Nov/2012:12:09:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:09:25] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:09:25] ENGINE Bus STARTED
+[17/Nov/2012:12:09:30] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:11:04] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:11:04] ENGINE Bus STOPPING
+[17/Nov/2012:12:11:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:11:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:11:04] ENGINE Bus STOPPED
+[17/Nov/2012:12:11:04] ENGINE Bus EXITING
+[17/Nov/2012:12:11:04] ENGINE Bus EXITED
+[17/Nov/2012:12:11:04] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:11:12] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:11:12] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:11:12] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:11:12] ENGINE Bus STARTING
+[17/Nov/2012:12:11:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:11:12] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:11:12] ENGINE Bus STARTED
+[17/Nov/2012:12:11:14] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 188, in devices
+    except (UnboundLocalError,Exception,AttributeError,UndefinedError), e:
+NameError: global name 'UndefinedError' is not defined
+
+[17/Nov/2012:12:11:25] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 188, in devices
+    except (UnboundLocalError,Exception,AttributeError,UndefinedError), e:
+NameError: global name 'UndefinedError' is not defined
+
+[17/Nov/2012:12:13:23] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:13:23] ENGINE Bus STOPPING
+[17/Nov/2012:12:13:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:13:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:13:23] ENGINE Bus STOPPED
+[17/Nov/2012:12:13:23] ENGINE Bus EXITING
+[17/Nov/2012:12:13:23] ENGINE Bus EXITED
+[17/Nov/2012:12:13:23] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:13:32] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:13:32] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:13:32] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:13:32] ENGINE Bus STARTING
+[17/Nov/2012:12:13:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:13:32] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:13:32] ENGINE Bus STARTED
+[17/Nov/2012:12:13:34] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 188, in devices
+    except (UnboundLocalError,Exception,AttributeError,UndefinedError), e:
+NameError: global name 'UndefinedError' is not defined
+
+[17/Nov/2012:12:13:42] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 188, in devices
+    except (UnboundLocalError,Exception,AttributeError,UndefinedError), e:
+NameError: global name 'UndefinedError' is not defined
+
+[17/Nov/2012:12:14:25] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:14:25] ENGINE Bus STOPPING
+[17/Nov/2012:12:14:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:14:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:14:25] ENGINE Bus STOPPED
+[17/Nov/2012:12:14:25] ENGINE Bus EXITING
+[17/Nov/2012:12:14:25] ENGINE Bus EXITED
+[17/Nov/2012:12:14:25] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:14:34] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:14:34] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:14:34] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:14:34] ENGINE Bus STARTING
+[17/Nov/2012:12:14:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:14:34] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:14:34] ENGINE Bus STARTED
+[17/Nov/2012:12:14:37] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 183, in devices
+    d=self.dev.getDevice(dev)
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 41, in getDeviceEvents
+    print "getDeviceEvents: %s" % d
+NameError: global name 'd' is not defined
+
+[17/Nov/2012:12:14:42] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 183, in devices
+    d=self.dev.getDevice(dev)
+  File "/home/zenoss/zenMaster/handlers/devices.py", line 111, in getDevice
+    football['events'] = self.evt.getDeviceEvents(football['id'])
+  File "/home/zenoss/zenMaster/handlers/events.py", line 41, in getDeviceEvents
+    print "getDeviceEvents: %s" % d
+NameError: global name 'd' is not defined
+
+[17/Nov/2012:12:15:19] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:15:19] ENGINE Bus STOPPING
+[17/Nov/2012:12:15:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:15:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:15:19] ENGINE Bus STOPPED
+[17/Nov/2012:12:15:19] ENGINE Bus EXITING
+[17/Nov/2012:12:15:19] ENGINE Bus EXITED
+[17/Nov/2012:12:15:19] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:15:28] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:15:28] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:15:28] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:15:28] ENGINE Bus STARTING
+[17/Nov/2012:12:15:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:15:28] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:15:28] ENGINE Bus STARTED
+[17/Nov/2012:12:15:31] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:16:27] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:16:27] ENGINE Bus STOPPING
+[17/Nov/2012:12:16:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:16:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:16:27] ENGINE Bus STOPPED
+[17/Nov/2012:12:16:27] ENGINE Bus EXITING
+[17/Nov/2012:12:16:27] ENGINE Bus EXITED
+[17/Nov/2012:12:16:27] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:16:36] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:16:36] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:16:36] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:16:36] ENGINE Bus STARTING
+[17/Nov/2012:12:16:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:16:36] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:16:36] ENGINE Bus STARTED
+[17/Nov/2012:12:16:40] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:16:46] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:20:01] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:20:01] ENGINE Bus STOPPING
+[17/Nov/2012:12:20:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:20:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:20:01] ENGINE Bus STOPPED
+[17/Nov/2012:12:20:01] ENGINE Bus EXITING
+[17/Nov/2012:12:20:01] ENGINE Bus EXITED
+[17/Nov/2012:12:20:01] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:20:10] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:20:10] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:20:10] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:20:10] ENGINE Bus STARTING
+[17/Nov/2012:12:20:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:20:10] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:20:10] ENGINE Bus STARTED
+[17/Nov/2012:12:20:12] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:20:15] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:23:45] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:23:45] ENGINE Bus STOPPING
+[17/Nov/2012:12:23:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:23:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:23:45] ENGINE Bus STOPPED
+[17/Nov/2012:12:23:45] ENGINE Bus EXITING
+[17/Nov/2012:12:23:45] ENGINE Bus EXITED
+[17/Nov/2012:12:23:45] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:23:54] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:23:54] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:23:54] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:23:54] ENGINE Bus STARTING
+[17/Nov/2012:12:23:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:23:54] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:23:54] ENGINE Bus STARTED
+[17/Nov/2012:12:23:57] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:24:01] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: u"TypeError: 'NoneType' object is not iterable" has no member named "evid"
+
+[17/Nov/2012:12:31:39] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:31:39] ENGINE Bus STOPPING
+[17/Nov/2012:12:31:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:31:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:31:39] ENGINE Bus STOPPED
+[17/Nov/2012:12:31:39] ENGINE Bus EXITING
+[17/Nov/2012:12:31:39] ENGINE Bus EXITED
+[17/Nov/2012:12:31:39] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:31:48] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:31:48] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:31:48] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:31:48] ENGINE Bus STARTING
+[17/Nov/2012:12:31:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:31:48] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:31:48] ENGINE Bus STARTED
+[17/Nov/2012:12:32:15] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: 3 has no member named "evid"
+
+[17/Nov/2012:12:32:19] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: 3 has no member named "evid"
+
+[17/Nov/2012:12:35:56] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 64, in listEvents
+    for dev in self.dmd.ZenEventManager.getEventList():
+AttributeError: getEventList
+
+[17/Nov/2012:12:37:26] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:37:26] ENGINE Bus STOPPING
+[17/Nov/2012:12:37:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:37:26] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:37:26] ENGINE Bus STOPPED
+[17/Nov/2012:12:37:26] ENGINE Bus EXITING
+[17/Nov/2012:12:37:26] ENGINE Bus EXITED
+[17/Nov/2012:12:37:26] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:37:36] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:37:36] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:37:36] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:37:36] ENGINE Bus STARTING
+[17/Nov/2012:12:37:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:37:37] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:37:37] ENGINE Bus STARTED
+[17/Nov/2012:12:37:38] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 172, in events
+    return tmpl.generate(title=self.title,events=e,version=self.version).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 589, in _flatten
+    _exec_suite(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 294, in _exec_suite
+    suite.execute(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 199, in execute
+    exec self.code in _globals, data
+  File "/home/zenoss/zenMaster/webui/static/templates/event-icon-list.tpl", line 39, in <Suite u"ack='' ...">
+    ackclass=''
+TypeError: 'int' object is not subscriptable
+
+[17/Nov/2012:12:44:09] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:44:09] ENGINE Bus STOPPING
+[17/Nov/2012:12:44:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:44:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:44:09] ENGINE Bus STOPPED
+[17/Nov/2012:12:44:09] ENGINE Bus EXITING
+[17/Nov/2012:12:44:09] ENGINE Bus EXITED
+[17/Nov/2012:12:44:09] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:44:18] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:44:18] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:44:18] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:44:18] ENGINE Bus STARTING
+[17/Nov/2012:12:44:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:44:18] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:44:18] ENGINE Bus STARTED
+[17/Nov/2012:12:44:29] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 69, in listEvents
+    football[i]=z.get_event(event['evid'])
+AttributeError: zenossapi instance has no attribute 'get_event'
+
+[17/Nov/2012:12:50:44] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:50:44] ENGINE Bus STOPPING
+[17/Nov/2012:12:50:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:50:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:50:44] ENGINE Bus STOPPED
+[17/Nov/2012:12:50:44] ENGINE Bus EXITING
+[17/Nov/2012:12:50:44] ENGINE Bus EXITED
+[17/Nov/2012:12:50:44] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:50:53] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:50:53] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:50:53] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:50:53] ENGINE Bus STARTING
+[17/Nov/2012:12:50:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:50:53] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:50:53] ENGINE Bus STARTED
+[17/Nov/2012:12:51:01] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 69, in listEvents
+    football[i]=z.get_event(event['evid'])
+NameError: global name 'football' is not defined
+
+[17/Nov/2012:12:52:39] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 166, in events
+    e=self.evt.listEvents()
+  File "/home/zenoss/zenMaster/handlers/events.py", line 69, in listEvents
+    for event in events['events']:
+NameError: global name 'football' is not defined
+
+[17/Nov/2012:12:52:46] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:52:46] ENGINE Bus STOPPING
+[17/Nov/2012:12:52:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:52:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:52:49] ENGINE Bus STOPPED
+[17/Nov/2012:12:52:49] ENGINE Bus EXITING
+[17/Nov/2012:12:52:49] ENGINE Bus EXITED
+[17/Nov/2012:12:52:49] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:52:58] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:52:58] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:52:58] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:52:58] ENGINE Bus STARTING
+[17/Nov/2012:12:52:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:52:58] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:52:58] ENGINE Bus STARTED
+[17/Nov/2012:12:53:10] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 172, in events
+    return tmpl.generate(title=self.title,events=e,version=self.version).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 589, in _flatten
+    _exec_suite(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 294, in _exec_suite
+    suite.execute(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 199, in execute
+    exec self.code in _globals, data
+  File "/home/zenoss/zenMaster/webui/static/templates/event-icon-list.tpl", line 39, in <Suite u"ack='' ...">
+    ackclass=''
+TypeError: 'int' object is not subscriptable
+
+[17/Nov/2012:12:57:52] ENGINE Caught signal SIGTERM.
+[17/Nov/2012:12:57:52] ENGINE Bus STOPPING
+[17/Nov/2012:12:57:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[17/Nov/2012:12:57:52] ENGINE Stopped thread '_TimeoutMonitor'.
+[17/Nov/2012:12:57:52] ENGINE Bus STOPPED
+[17/Nov/2012:12:57:52] ENGINE Bus EXITING
+[17/Nov/2012:12:57:52] ENGINE Bus EXITED
+[17/Nov/2012:12:57:52] ENGINE Waiting for child threads to terminate...
+[17/Nov/2012:12:58:01] ENGINE Listening for SIGHUP.
+[17/Nov/2012:12:58:01] ENGINE Listening for SIGTERM.
+[17/Nov/2012:12:58:01] ENGINE Listening for SIGUSR1.
+[17/Nov/2012:12:58:01] ENGINE Bus STARTING
+[17/Nov/2012:12:58:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Nov/2012:12:58:01] ENGINE Serving on 0.0.0.0:8000
+[17/Nov/2012:12:58:01] ENGINE Bus STARTED
+[17/Nov/2012:12:58:09] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 172, in events
+    return tmpl.generate(title=self.title,events=e,version=self.version).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 589, in _flatten
+    _exec_suite(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 294, in _exec_suite
+    suite.execute(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 199, in execute
+    exec self.code in _globals, data
+  File "/home/zenoss/zenMaster/webui/static/templates/event-icon-list.tpl", line 39, in <Suite u"ack='' ...">
+    ackclass=''
+TypeError: 'int' object is not subscriptable
+
+[17/Nov/2012:13:03:11] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: 2 has no member named "evid"
+
+[02/Dec/2012:09:53:57] ENGINE Listening for SIGHUP.
+[02/Dec/2012:09:53:57] ENGINE Listening for SIGTERM.
+[02/Dec/2012:09:53:57] ENGINE Listening for SIGUSR1.
+[02/Dec/2012:09:53:57] ENGINE Bus STARTING
+[02/Dec/2012:09:53:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Dec/2012:09:53:57] ENGINE Serving on 0.0.0.0:8000
+[02/Dec/2012:09:53:57] ENGINE Bus STARTED
+[02/Dec/2012:09:56:41] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: 1 has no member named "evid"
+
+[02/Dec/2012:09:56:52] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 216, in devices
+    return tmpl.generate(title=self.title,device=d).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 555, in _flatten
+    for event in self._flatten(value, ctxt, **vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 565, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 277, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 178, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "/home/zenoss/zenMaster/webui/static/templates/device-info.tpl", line 72, in <Expression u"device['events'][key]['evid']">
+    <a href="/events/get/${device['events'][key]['evid']}"><small class="counter">${device['events'][key]['count']}</small>${device['events'][key]['summary']}</a>
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 338, in lookup_item
+    val = cls.undefined(key, owner=obj)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 410, in undefined
+    raise UndefinedError(key, owner=owner)
+UndefinedError: 2 has no member named "evid"
+
+[02/Dec/2012:09:57:18] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 172, in events
+    return tmpl.generate(title=self.title,events=e,version=self.version).render('html', doctype='html')
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 183, in render
+    return encode(generator, method=method, encoding=encoding, out=out)
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 57, in encode
+    return _encode(''.join(list(iterator)))
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 470, in __call__
+    for kind, data, _ in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 826, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 670, in __call__
+    for kind, data, pos in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 771, in __call__
+    for kind, data, pos in chain(stream, [(None, None, None)]):
+  File "build/bdist.linux-x86_64/egg/genshi/output.py", line 586, in __call__
+    for ev in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/core.py", line 288, in _ensure
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 605, in _include
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/markup.py", line 327, in _match
+    for event in stream:
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 589, in _flatten
+    _exec_suite(data, ctxt, vars)
+  File "build/bdist.linux-x86_64/egg/genshi/template/base.py", line 294, in _exec_suite
+    suite.execute(ctxt)
+  File "build/bdist.linux-x86_64/egg/genshi/template/eval.py", line 199, in execute
+    exec self.code in _globals, data
+  File "/home/zenoss/zenMaster/webui/static/templates/event-icon-list.tpl", line 39, in <Suite u"ack='' ...">
+    ackclass=''
+TypeError: 'int' object is not subscriptable
+
+[02/Dec/2012:09:57:29] HTTP Traceback (most recent call last):
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cprequest.py", line 660, in respond
+    response.body = self.handler()
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/lib/encoding.py", line 193, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/opt/zenoss/lib/python2.7/site-packages/CherryPy-3.2.0rc1-py2.7.egg/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/zenoss/zenMaster/webui/__init__.py", line 99, in aws
+    elif service == 'instances' and evid != None:
+NameError: global name 'evid' is not defined
+
+[15/Dec/2012:14:11:00] ENGINE Listening for SIGHUP.
+[15/Dec/2012:14:11:00] ENGINE Listening for SIGTERM.
+[15/Dec/2012:14:11:00] ENGINE Listening for SIGUSR1.
+[15/Dec/2012:14:11:00] ENGINE Bus STARTING
+[15/Dec/2012:14:11:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/Dec/2012:14:11:00] ENGINE Serving on 0.0.0.0:8000
+[15/Dec/2012:14:11:00] ENGINE Bus STARTED
+[20/Dec/2012:23:20:02] ENGINE Listening for SIGHUP.
+[20/Dec/2012:23:20:02] ENGINE Listening for SIGTERM.
+[20/Dec/2012:23:20:02] ENGINE Listening for SIGUSR1.
+[20/Dec/2012:23:20:02] ENGINE Bus STARTING
+[20/Dec/2012:23:20:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[20/Dec/2012:23:20:02] ENGINE Serving on 0.0.0.0:8000
+[20/Dec/2012:23:20:02] ENGINE Bus STARTED
+[26/Dec/2012:23:42:38] ENGINE Listening for SIGHUP.
+[26/Dec/2012:23:42:38] ENGINE Listening for SIGTERM.
+[26/Dec/2012:23:42:38] ENGINE Listening for SIGUSR1.
+[26/Dec/2012:23:42:38] ENGINE Bus STARTING
+[26/Dec/2012:23:42:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[26/Dec/2012:23:42:39] ENGINE Serving on 0.0.0.0:8000
+[26/Dec/2012:23:42:39] ENGINE Bus STARTED
+[01/Jan/2013:03:23:53] ENGINE Listening for SIGHUP.
+[01/Jan/2013:03:23:53] ENGINE Listening for SIGTERM.
+[01/Jan/2013:03:23:53] ENGINE Listening for SIGUSR1.
+[01/Jan/2013:03:23:53] ENGINE Bus STARTING
+[01/Jan/2013:03:23:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Jan/2013:03:23:53] ENGINE Serving on 0.0.0.0:8000
+[01/Jan/2013:03:23:53] ENGINE Bus STARTED
+[20/Jan/2013:16:10:59] ENGINE Caught signal SIGTERM.
+[20/Jan/2013:16:10:59] ENGINE Bus STOPPING
+[20/Jan/2013:16:10:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[20/Jan/2013:16:10:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[20/Jan/2013:16:10:59] ENGINE Bus STOPPED
+[20/Jan/2013:16:10:59] ENGINE Bus EXITING
+[20/Jan/2013:16:10:59] ENGINE Bus EXITED
+[20/Jan/2013:16:10:59] ENGINE Waiting for child threads to terminate...
+[20/Jan/2013:23:10:24] ENGINE Listening for SIGHUP.
+[20/Jan/2013:23:10:24] ENGINE Listening for SIGTERM.
+[20/Jan/2013:23:10:24] ENGINE Listening for SIGUSR1.
+[20/Jan/2013:23:10:24] ENGINE Bus STARTING
+[20/Jan/2013:23:10:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[20/Jan/2013:23:10:25] ENGINE Serving on 0.0.0.0:8000
+[20/Jan/2013:23:10:25] ENGINE Bus STARTED
+[20/Jan/2013:23:12:48] ENGINE Caught signal SIGTERM.
+[20/Jan/2013:23:12:48] ENGINE Bus STOPPING
+[20/Jan/2013:23:12:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[20/Jan/2013:23:12:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[20/Jan/2013:23:12:48] ENGINE Bus STOPPED
+[20/Jan/2013:23:12:48] ENGINE Bus EXITING
+[20/Jan/2013:23:12:48] ENGINE Bus EXITED
+[20/Jan/2013:23:12:48] ENGINE Waiting for child threads to terminate...
+[20/Jan/2013:23:20:35] ENGINE Listening for SIGHUP.
+[20/Jan/2013:23:20:35] ENGINE Listening for SIGTERM.
+[20/Jan/2013:23:20:35] ENGINE Listening for SIGUSR1.
+[20/Jan/2013:23:20:35] ENGINE Bus STARTING
+[20/Jan/2013:23:20:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[20/Jan/2013:23:20:35] ENGINE Serving on 0.0.0.0:8000
+[20/Jan/2013:23:20:35] ENGINE Bus STARTED
+[09/Feb/2013:03:59:01] ENGINE Listening for SIGHUP.
+[09/Feb/2013:03:59:01] ENGINE Listening for SIGTERM.
+[09/Feb/2013:03:59:01] ENGINE Listening for SIGUSR1.
+[09/Feb/2013:03:59:01] ENGINE Bus STARTING
+[09/Feb/2013:03:59:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Feb/2013:03:59:01] ENGINE Serving on 0.0.0.0:8000
+[09/Feb/2013:03:59:01] ENGINE Bus STARTED
+[09/Feb/2013:04:46:04] ENGINE Listening for SIGHUP.
+[09/Feb/2013:04:46:04] ENGINE Listening for SIGTERM.
+[09/Feb/2013:04:46:04] ENGINE Listening for SIGUSR1.
+[09/Feb/2013:04:46:04] ENGINE Bus STARTING
+[09/Feb/2013:04:46:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Feb/2013:04:46:05] ENGINE Serving on 0.0.0.0:8000
+[09/Feb/2013:04:46:05] ENGINE Bus STARTED
+[12/Feb/2013:08:52:36] ENGINE Listening for SIGHUP.
+[12/Feb/2013:08:52:36] ENGINE Listening for SIGTERM.
+[12/Feb/2013:08:52:36] ENGINE Listening for SIGUSR1.
+[12/Feb/2013:08:52:36] ENGINE Bus STARTING
+[12/Feb/2013:08:52:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Feb/2013:08:52:37] ENGINE Serving on 0.0.0.0:8000
+[12/Feb/2013:08:52:37] ENGINE Bus STARTED
+[15/Feb/2013:15:46:17] ENGINE Listening for SIGHUP.
+[15/Feb/2013:15:46:17] ENGINE Listening for SIGTERM.
+[15/Feb/2013:15:46:17] ENGINE Listening for SIGUSR1.
+[15/Feb/2013:15:46:17] ENGINE Bus STARTING
+[15/Feb/2013:15:46:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/Feb/2013:15:46:17] ENGINE Serving on 0.0.0.0:8000
+[15/Feb/2013:15:46:17] ENGINE Bus STARTED
+[25/Feb/2013:12:00:14] ENGINE Listening for SIGHUP.
+[25/Feb/2013:12:00:15] ENGINE Listening for SIGTERM.
+[25/Feb/2013:12:00:15] ENGINE Listening for SIGUSR1.
+[25/Feb/2013:12:00:15] ENGINE Bus STARTING
+[25/Feb/2013:12:00:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Feb/2013:12:00:15] ENGINE Serving on 0.0.0.0:8000
+[25/Feb/2013:12:00:15] ENGINE Bus STARTED
+[09/Mar/2013:17:44:23] ENGINE Listening for SIGHUP.
+[09/Mar/2013:17:44:24] ENGINE Listening for SIGTERM.
+[09/Mar/2013:17:44:24] ENGINE Listening for SIGUSR1.
+[09/Mar/2013:17:44:24] ENGINE Bus STARTING
+[09/Mar/2013:17:44:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Mar/2013:17:44:24] ENGINE Serving on 0.0.0.0:8000
+[09/Mar/2013:17:44:24] ENGINE Bus STARTED
+[10/Mar/2013:19:15:29] ENGINE Caught signal SIGTERM.
+[10/Mar/2013:19:15:29] ENGINE Bus STOPPING
+[10/Mar/2013:19:15:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8000)) shut down
+[10/Mar/2013:19:15:29] ENGINE Stopped thread '_TimeoutMonitor'.
+[10/Mar/2013:19:15:29] ENGINE Bus STOPPED
+[10/Mar/2013:19:15:29] ENGINE Bus EXITING
+[10/Mar/2013:19:15:29] ENGINE Bus EXITED
+[10/Mar/2013:19:15:29] ENGINE Waiting for child threads to terminate...
+[10/Mar/2013:19:23:05] ENGINE Listening for SIGHUP.
+[10/Mar/2013:19:23:05] ENGINE Listening for SIGTERM.
+[10/Mar/2013:19:23:05] ENGINE Listening for SIGUSR1.
+[10/Mar/2013:19:23:05] ENGINE Bus STARTING
+[10/Mar/2013:19:23:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[10/Mar/2013:19:23:06] ENGINE Serving on 0.0.0.0:8000
+[10/Mar/2013:19:23:06] ENGINE Bus STARTED
